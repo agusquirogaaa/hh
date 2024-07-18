@@ -1,14 +1,16 @@
 import Image from "next/image";
-import Index from "./index";
-import NavBar from "./navbar/NavBar"
-import { SparklesPreview } from "@/components/SparklesPreview";
+import NavBar from "./NavBar";
+import Index from "./Index/page";
+import Servicios from "./Servicios/page";
+import Info from "./Info/page";
+
 export default function Home() {
   return (
-   <>
-      <NavBar></NavBar>
-      <div className="bg-color1">
-       <Index></Index>  
-      </div>
-   </>
+    <>
+      <NavBar />
+      <Index />
+      <Servicios />
+      <Info />
+    </>
   );
 }

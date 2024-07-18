@@ -1,5 +1,5 @@
 {
-  "name": "nombre-del-proyecto",
+  "name": "hh",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -29,6 +29,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "daisyui": "^4.12.2",
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
     "postcss": "^8",
